@@ -1,0 +1,13 @@
+/* TaskList Styles */
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-list-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #6b7280;
+  font-size: 1rem;
+}

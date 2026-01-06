@@ -1,0 +1,62 @@
+/* PresetSelector Styles */
+
+.preset-selector {
+  margin-bottom: 1.5rem;
+}
+
+.preset-selector-label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #9ca3af;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.preset-selector-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .preset-selector-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.preset-button {
+  padding: 1rem;
+  background-color: #1f2937;
+  border: 2px solid #374151;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.preset-button:hover:not(:disabled) {
+  border-color: #4b5563;
+  background-color: #2d3748;
+}
+
+.preset-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.preset-button-active {
+  border-color: #3b82f6;
+  background-color: #1e3a5f;
+}
+
+.preset-button-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #e5e7eb;
+  margin-bottom: 0.25rem;
+}
+
+.preset-button-duration {
+  font-size: 0.75rem;
+  color: #9ca3af;
+}

@@ -1,0 +1,45 @@
+/* TaskManager Styles */
+
+.task-manager {
+  min-height: 400px;
+}
+
+.task-manager-header {
+  margin-bottom: 1.5rem;
+}
+
+.task-manager-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e5e7eb;
+}
+
+.task-manager-tabs {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 2px solid #374151;
+  margin-bottom: 1rem;
+}
+
+.task-tab {
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: none;
+  color: #9ca3af;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+}
+
+.task-tab:hover {
+  color: #e5e7eb;
+}
+
+.task-tab-active {
+  color: #3b82f6;
+  border-bottom-color: #3b82f6;
+}
