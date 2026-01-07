@@ -1,0 +1,77 @@
+/* TaskItem Styles */
+
+.task-item {
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  transition: all 0.2s ease;
+}
+
+.task-item:hover {
+  border-color: #4b5563;
+}
+
+.task-item-now {
+  border-color: #3b82f6;
+  background-color: #1e3a5f;
+}
+
+.task-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.task-item-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+.task-effort {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.task-effort-low {
+  background-color: #10b981;
+  color: white;
+}
+
+.task-effort-medium {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.task-effort-high {
+  background-color: #ef4444;
+  color: white;
+}
+
+.task-item-notes {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.875rem;
+  color: #9ca3af;
+  line-height: 1.5;
+}
+
+.task-item-meta {
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin-bottom: 0.75rem;
+}
+
+.task-item-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
